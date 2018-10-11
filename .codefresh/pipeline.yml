@@ -3,7 +3,7 @@ stages:
 
 steps:
   run_terragrunt_plan:
-    title: Run Terragrunt Plan QA
+    title: Run Terragrunt Test
     image: dfdsdk/terratest-runner:0.11
     commands:
       - cd ./test
