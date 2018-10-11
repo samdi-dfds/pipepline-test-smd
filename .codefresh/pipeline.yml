@@ -2,7 +2,7 @@ version: '1.0'
 stages:
 
 steps:
-  run_terragrunt_plan:
+  run_terragrunt_test:
     title: Run Terragrunt Test
     image: dfdsdk/terratest-runner:0.11
     commands:
