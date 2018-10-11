@@ -6,6 +6,7 @@ steps:
     title: Run Terragrunt Test
     image: dfdsdk/terratest-runner:0.11
     commands:
+      - export GOPATH="./codefresh"
       - cd ./test
       - dep ensure
       - go test -v -run TestTerraformBasicExample
