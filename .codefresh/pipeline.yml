@@ -8,5 +8,5 @@ steps:
     commands:
       - cd ./test
       - terraform init
-      - terraform apply
-      - terraform destroy
+      - terraform apply -auto-approve
+      - terraform destroy -auto-approve
