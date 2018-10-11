@@ -7,4 +7,5 @@ steps:
     image: dfdsdk/terratest-runner:0.11
     commands:
       - cd ./test
+      - chmod +x echotest.sh
       - ./echotest.sh
