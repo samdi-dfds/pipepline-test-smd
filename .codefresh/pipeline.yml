@@ -8,6 +8,6 @@ steps:
     commands:
       - export GOPATH="./codefresh"
       - cd ./test
-      - ls -a
+      - pwd
       - dep ensure
       - go test -v -run TestTerraformBasicExample
